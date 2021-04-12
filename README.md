@@ -22,7 +22,7 @@ PMF项目复现了论文《Probabilistic Matrix Factorization》，其中包含�
 
 ![prediction.png](readme_imgs//)    
 
-2.2 该项目的训练策略参考了论文中的训练策略：max_iterations=100，K=10，$ λ_{U} $=0.1，$$ λ_{V} $$ \qquad=0.1。  
+2.2 该项目的训练策略参考了论文中的训练策略：max_iterations=100，K=10，$ λ_{U} $=0.1，$$ λ_{V} $$ =0.1。  
 
 2.3 论文中使用了RMSE对模型进行评估，这里也使用RMSE来评价模型。当训练集 : 测试集=7 : 3时，可得到最终的RMSE为0.93左右。RMSE曲线如下图所示：  
 
